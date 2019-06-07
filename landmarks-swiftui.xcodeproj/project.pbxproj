@@ -105,6 +105,7 @@
 		3FA260CA22AA11DD00380A89 /* landmarks-swiftui */ = {
 			isa = PBXGroup;
 			children = (
+				3FAB256622AAB5A300085A06 /* Supporting Views */,
 				3FA260CB22AA11DD00380A89 /* AppDelegate.swift */,
 				3FA260CD22AA11DD00380A89 /* SceneDelegate.swift */,
 				3FA260CF22AA11DD00380A89 /* ContentView.swift */,
@@ -112,8 +113,6 @@
 				3FA260D622AA11E100380A89 /* LaunchScreen.storyboard */,
 				3FA260D922AA11E100380A89 /* Info.plist */,
 				3FA260D322AA11E100380A89 /* Preview Content */,
-				3FA260FB22AA17B600380A89 /* CircleImage.swift */,
-				3FA260FD22AA18AC00380A89 /* MapView.swift */,
 			);
 			path = "landmarks-swiftui";
 			sourceTree = "<group>";
@@ -142,6 +141,15 @@
 				3FA260EF22AA11E100380A89 /* Info.plist */,
 			);
 			path = "landmarks-swiftuiUITests";
+			sourceTree = "<group>";
+		};
+		3FAB256622AAB5A300085A06 /* Supporting Views */ = {
+			isa = PBXGroup;
+			children = (
+				3FA260FB22AA17B600380A89 /* CircleImage.swift */,
+				3FA260FD22AA18AC00380A89 /* MapView.swift */,
+			);
+			path = "Supporting Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
