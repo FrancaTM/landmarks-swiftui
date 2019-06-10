@@ -48,18 +48,17 @@ struct LandmarkDetail: View {
                     Text(landmark.state)
                         .font(.subheadline)
                 }
-                }
-                .padding()
+            }
+            .padding()
             
             Spacer()
-            }
-            .navigationBarTitle(Text(landmark.name))
-        
+        }
+        .navigationBarTitle(Text(landmark.name))
     }
 }
 
 #if DEBUG
-struct LandmarkDetail_Previews : PreviewProvider {
+struct LandmarkDetail_Previews: PreviewProvider {
     static var previews: some View {
         LandmarkDetail(landmark: landmarkData[0]).environmentObject(UserData())
     }

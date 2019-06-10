@@ -151,9 +151,7 @@
 				3FA260D622AA11E100380A89 /* LaunchScreen.storyboard */,
 				3FA260D922AA11E100380A89 /* Info.plist */,
 				3FA260D322AA11E100380A89 /* Preview Content */,
-				3FAB25BB22AADAEE00085A06 /* LandmarkRow.swift */,
 				3FAB25BD22AADE7900085A06 /* LandmarkList.swift */,
-				25AF9D1422AF0108006661B4 /* UserData.swift */,
 			);
 			path = "landmarks-swiftui";
 			sourceTree = "<group>";
@@ -187,6 +185,7 @@
 		3FAB256622AAB5A300085A06 /* Supporting Views */ = {
 			isa = PBXGroup;
 			children = (
+				3FAB25BB22AADAEE00085A06 /* LandmarkRow.swift */,
 				3FA260FB22AA17B600380A89 /* CircleImage.swift */,
 				3FA260FD22AA18AC00380A89 /* MapView.swift */,
 			);
@@ -196,6 +195,7 @@
 		3FAB256722AAB76C00085A06 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				25AF9D1422AF0108006661B4 /* UserData.swift */,
 				3FAB256822AAB7AE00085A06 /* Landmark.swift */,
 				3FAB256D22AABD3F00085A06 /* Data.swift */,
 			);
