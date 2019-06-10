@@ -24,7 +24,7 @@ struct LandmarkList: View {
 #if DEBUG
 struct LandmarkList_Previews : PreviewProvider {
     static var previews: some View {
-        ForEach(["iPhone 8", "iPhone Xs Max"].identified(by: \.self)) { deviceName in
+        ForEach(["iPhone Xr"].identified(by: \.self)) { deviceName in
             LandmarkList()
                 .previewDevice(PreviewDevice(rawValue: deviceName))
                 .previewDisplayName(deviceName)
