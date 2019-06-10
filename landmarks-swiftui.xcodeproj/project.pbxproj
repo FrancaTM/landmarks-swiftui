@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25AF9D1522AF0108006661B4 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AF9D1422AF0108006661B4 /* UserData.swift */; };
 		3FA260CC22AA11DD00380A89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA260CB22AA11DD00380A89 /* AppDelegate.swift */; };
 		3FA260CE22AA11DD00380A89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA260CD22AA11DD00380A89 /* SceneDelegate.swift */; };
 		3FA260D022AA11DD00380A89 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA260CF22AA11DD00380A89 /* LandmarkDetail.swift */; };
@@ -54,6 +55,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25AF9D1422AF0108006661B4 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		3FA260C822AA11DD00380A89 /* landmarks-swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "landmarks-swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FA260CB22AA11DD00380A89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FA260CD22AA11DD00380A89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 				3FA260D322AA11E100380A89 /* Preview Content */,
 				3FAB25BB22AADAEE00085A06 /* LandmarkRow.swift */,
 				3FAB25BD22AADE7900085A06 /* LandmarkList.swift */,
+				25AF9D1422AF0108006661B4 /* UserData.swift */,
 			);
 			path = "landmarks-swiftui";
 			sourceTree = "<group>";
@@ -371,6 +374,7 @@
 				3FA260CE22AA11DD00380A89 /* SceneDelegate.swift in Sources */,
 				3FA260D022AA11DD00380A89 /* LandmarkDetail.swift in Sources */,
 				3FAB25BC22AADAEE00085A06 /* LandmarkRow.swift in Sources */,
+				25AF9D1522AF0108006661B4 /* UserData.swift in Sources */,
 				3FAB256922AAB7AE00085A06 /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
